@@ -1,0 +1,23 @@
+artifact_path: /home/skander/5end ingineer (PFE)/Mlops/tp1/mlruns/1/models/m-088c72eaf145480a9fb1d2721b7bee0f/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.3
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.9.1
+    skops_trusted_types: null
+mlflow_version: 3.17.2
+model_id: m-088c72eaf145480a9fb1d2721b7bee0f
+model_size_bytes: 163268
+model_uuid: m-088c72eaf145480a9fb1d2721b7bee0f
+prompts: null
+run_id: 3ffb1ef3e71d433e8e543fecbf963eaa
+utc_time_created: '2026-10-21 08:37:38.949245'
